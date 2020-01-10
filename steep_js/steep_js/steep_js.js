@@ -49,7 +49,7 @@ function setup() {
 
 function ch1()
 {
-    if(x <= dimX / 2 && f(x) <= dimY / 2)
+    if(x <= dimX / 2)
     {
       strokeWeight(3);
       console.log('draw');
@@ -61,7 +61,7 @@ function ch1()
 
 function ch2()
 {
-    if(x <= dimX / 2 && g(x) <= dimY / 2)
+    if(x <= dimX / 2)
     {
       strokeWeight(3);
       console.log('draw');
@@ -73,7 +73,7 @@ function ch2()
 
 function ch3()
 {
-    if(x <= dimX / 2 && h(x) <= dimY / 2)
+    if(x <= dimX / 2)
     {
       strokeWeight(3);
       console.log('draw');
@@ -85,7 +85,7 @@ function ch3()
 
 function ch4()
 {
-    if(x <= dimX / 2 && w(x) <= dimY / 2)
+    if(x <= dimX / 2)
     {
       strokeWeight(3);
       console.log('draw');
